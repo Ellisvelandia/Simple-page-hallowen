@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
     <title>Hallowen</title>
@@ -164,7 +168,365 @@
           </div>
         </div>
       </section>
+      <!-- categorys -->
+      <section class="section category">
+        <h2 class="section__title">
+          favorite category <br />
+          scare
+        </h2>
+        <div class="category__container container grid">
+          <div class="category__data">
+            <img src="assets/category1-img.png" alt="" class="category__img" />
+            <h3 class="category__title">Ghost</h3>
+            <p class="category__description">
+              Choose the ghost, the sscariest there are.
+            </p>
+          </div>
+
+          <div class="category__data">
+            <img src="assets/category2-img.png" alt="" class="category__img" />
+            <h3 class="category__title">pumpkins</h3>
+            <p class="category__description">
+              You look at the scariest pumpkins there is.
+            </p>
+          </div>
+          <div class="category__data">
+            <img src="assets/category3-img.png" alt="" class="category__img" />
+            <h3 class="category__title">witch's hat</h3>
+            <p class="category__description">
+              Pick the most stylish witch hats out there
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section class="section about" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              About Hallowen
+              <br />
+              Night
+            </h2>
+            <p class="about__description">
+              Night of all the saints , or all the dead, is celebrated on
+              october 31 and it is a very fun international celebration , this
+              celebration comes from ancient origins, and is already celebrated
+              by everyone.
+            </p>
+            <a href="#" class="button">Lear more</a>
+          </div>
+
+          <img src="assets/about-img.png" alt="" class="about__img" />
+        </div>
+      </section>
+
+      <!-- trick or treat -->
+      <section class="section trick" id="trick">
+        <h2 class="section__title">Trick or Treat</h2>
+
+        <div class="trick__container container grid">
+          <div class="trick_content">
+            <img src="assets/trick-treat1-img.png" alt="" class="trick__img" />
+            <h3 class="trick__title">Toffee</h3>
+            <span class="trick__subtitle">Candy</span>
+            <span class="trick__price">$11.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick_content">
+            <img src="assets/trick-treat2-img.png" alt="" class="trick__img" />
+            <h3 class="trick__title">Bone</h3>
+            <span class="trick__subtitle">Accesory</span>
+            <span class="trick__price">$8.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick_content">
+            <img src="assets/trick-treat3-img.png" alt="" class="trick__img" />
+            <h3 class="trick__title">Scarecrow</h3>
+            <span class="trick__subtitle">Accesory</span>
+            <span class="trick__price">$15.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick_content">
+            <img src="assets/trick-treat4-img.png" alt="" class="trick__img" />
+            <h3 class="trick__title">Candy cane</h3>
+            <span class="trick__subtitle">Candy</span>
+            <span class="trick__price">$7.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick_content">
+            <img src="assets/trick-treat5-img.png" alt="" class="trick__img" />
+            <h3 class="trick__title">pumpkin</h3>
+            <span class="trick__subtitle">Candy</span>
+            <span class="trick__price">$19.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick_content">
+            <img src="assets/trick-treat6-img.png" alt="" class="trick__img" />
+            <h3 class="trick__title">Ghost</h3>
+            <span class="trick__subtitle">Accessory</span>
+            <span class="trick__price">$17.99</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- discounts -->
+      <section class="section discount">
+        <div class="discount__container container grid">
+          <div class="discount__data">
+            <h2 class="discount__title">
+              50% discount <br />
+              on new products
+            </h2>
+            <a href="#" class="button">go to new</a>
+          </div>
+          <img src="assets/discount-img.png" alt="" class="discount__img" />
+        </div>
+      </section>
+      <!-- new items -->
+      <section class="section new" id="new">
+        <h2 class="section__title">The newcomers</h2>
+
+        <div class="new__container container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/new1-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Haunted House</h3>
+                <span class="new_subtitle">Accesory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$14.99</span>
+                  <span class="new__discount">$29.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/new2-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Hallowen Candle</h3>
+                <span class="new_subtitle">Accesory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$11.99</span>
+                  <span class="new__discount">$21.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/new3-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Witch Hat</h3>
+                <span class="new_subtitle">Accesory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$4.99</span>
+                  <span class="new__discount">$9.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/new4-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Rip</h3>
+                <span class="new_subtitle">Accesory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$24.99</span>
+                  <span class="new__discount">$44.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/new5-img.png" alt="" class="new__img" />
+                <h3 class="new__title">terrifying Crystal ball</h3>
+                <span class="new_subtitle">Accesory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$5.99</span>
+                  <span class="new__discount">$12.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">New</div>
+                <img src="assets/new6-img.png" alt="" class="new__img" />
+                <h3 class="new__title">Witch Broom</h3>
+                <span class="new_subtitle">Accesory</span>
+
+                <div class="new__prices">
+                  <span class="new__price">$7.99</span>
+                  <span class="new__discount">$14.99</span>
+                </div>
+
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- suscriber -->
+      <section class="section newsletter">
+        <div class="mewsletter__container container grid">
+          <h2 class="section__title">Our Newsletter</h2>
+          <p class="newsletter__description">
+            Promotion new productos and sales . Directly to your inbox
+          </p>
+
+          <form action="" class="newsletter__form">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="newsletter__input"
+            />
+            <button class="button">Subscribe</button>
+          </form>
+        </div>
+      </section>
     </main>
+    <!-- footer -->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <img src="assets/logo.png" alt="" class="footer__logo-img" />
+            Halloween
+          </a>
+
+          <p class="footer description">
+            Enjoy the scariest Night <br />
+            of your life
+          </p>
+
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">About</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Features</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Our Services</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Our Services</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Pricing</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Discounts</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Shipping mode</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Our Company</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">About</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Our mision</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer__copy">&#169; Hallowen 2022</span>
+
+      <img src="assets/footer1-img.png" alt="" class="footer__img-one" />
+      <img src="assets/footer2-img.png" alt="" class="footer__img-two" />
+    </footer>
     <!-- endregion -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </body>
 </html>
